@@ -119,7 +119,7 @@ function Hero() {
 						My Name is Rythem &
 					</h1>
 					<p className="text-lg md:tracking-wider light:text-gray-700">
-						I&apos;m a software developer 💻
+						I&apos;m a web developer 💻
 					</p>
 				</div>
 				<div className="flex gap-x-10 justify-center mt-8 text-3xl text-yellow-600">
