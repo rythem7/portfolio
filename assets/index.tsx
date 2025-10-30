@@ -16,9 +16,9 @@ export const heroIcons: React.ReactNode[] = [
 ];
 
 export const heroIconsArr = [
-{url : "#", icon : <RiInstagramLine key="instagram-icon" />},
-{url : "#", icon : <RiFacebookCircleLine key="facebook-icon" />},
-{url : "#", icon : <RiGithubLine key="github-icon" />},
+{url : "https://www.instagram.com/bugs2brilliance/", icon : <RiInstagramLine key="instagram-icon" />},
+{url : "https://www.instagram.com/bugs2brilliance/", icon : <RiFacebookCircleLine key="facebook-icon" />},
+{url : "github.com/rythem7", icon : <RiGithubLine key="github-icon" />},
 ];
 
 // About Me
