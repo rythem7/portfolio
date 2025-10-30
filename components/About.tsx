@@ -27,7 +27,7 @@ export default function About() {
 						{aboutText}
 					</p>
 					<Link
-						href="/resume.docx"
+						href="/resume-dev.pdf"
 						download=""
 						className="flex items-center w-max gap-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
 					>
