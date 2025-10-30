@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { heroIconsArr } from "@/assets";
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 
@@ -123,24 +124,24 @@ function Hero() {
 					</p>
 				</div>
 				<div className="flex gap-x-10 justify-center mt-8 text-3xl text-yellow-600">
-					{heroIcons.map((icon, i) => (
-						<a
-							href="#"
-							key={i}
+					{heroIconsArr.map((icon, i) => (
+						<Link
+							href={icon.url}
+							key={`icon-${i}`}
 							className="hover:bg-red-400 hover:text-white transition-all rounded-lg hover:scale-140"
 						>
 							{icon}
-						</a>
+						</Link>
 					))}
 				</div>
-				<a
+				<Link
 					href="#"
 					className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
 					onMouseEnter={() => setButtonHover(true)}
 					onMouseLeave={() => setButtonHover(false)}
 				>
 					Talk to me
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
