@@ -344,9 +344,9 @@ export const projectsButton = [
 export const pricingPlans = [
 	{
 		title: "Basic",
-		pricing: "$500 - $1,000",
+		pricing: "$200 - $300",
 		features: [
-			"Up to 5 pages",
+			"Up to 2 pages",
 			"Responsive design ",
 			"Basic SEO ",
 			"Contact form",
@@ -357,9 +357,9 @@ export const pricingPlans = [
 	},
 	{
 		title: "Premium",
-		pricing: "$5,000 - $10,000",
+		pricing: "$700 - $1000",
 		features: [
-			"Unlimited pages",
+			"Upto 7 pages",
 			"Responsive design",
 			"Comprehensive SEO",
 			"Contact form ",
@@ -367,7 +367,6 @@ export const pricingPlans = [
 			"Advanced security",
 			"E-commerce (unlimited products)",
 			"Blog setup",
-			"Google Analytics with custom reports",
 			"6 months support",
 		],
 		recommended:
@@ -375,7 +374,7 @@ export const pricingPlans = [
 	},
 	{
 		title: "Standard",
-		pricing: "$1,500 - $3,000",
+		pricing: "$300 - $500",
 		features: [
 			"Up to 10 pages",
 			"Responsive design",
@@ -400,15 +399,15 @@ export const checkIcon = <RiCheckLine />;
 export const questions = [
 	{
 		question: "How much do you charge for a website?",
-		answer: "The website packages usually range from $2997 - $4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.",
+		answer: "The website packages usually range from $200 - $1000. However it really depends on what kind of website you need.",
 	},
 	{
 		question: "Why are you so expensive?",
-		answer: "he process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money",
+		answer: "The process I use to build your website takes a certain amount of time and a lot of planning and research. I build your website from scratch, which means you get a unique design tailored around your business.",
 	},
 	{
 		question: "How long does it take to build a website?",
-		answer: "It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself.",
+		answer: "It takes approximately 1-3 weeks to build a website from start to finish, providing I have all the information from you.",
 	},
 	{
 		question: "How do we communicate throughout the website build?",
@@ -420,29 +419,29 @@ export const questions = [
 	},
 	{
 		question: "What if I don’t like the website?",
-		answer: "You’re in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.",
+		answer: "You’re in luck. I offer a risk-free guarantee. Before I build your new website, I'll design a mockup of your homepage. I’ll design a layout in Photoshop first, that way you’ll get to see my initial designs within approximately three days. This is your opportunity to give me feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.",
 	},
 	{
 		question: "Do you offer a payment schedule?",
-		answer: "Yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken 30 days after this.",
+		answer: "Yes, I split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken 30 days after this.",
 	},
 	{
 		question:
 			"Can I make the final payment when the site is ready to go live?",
-		answer: "No. In the past we have found that projects can take a lot longer than expected to complete. We might be waiting for information from you and this can delay the process. Sometimes these delays can take months. This is why we always invoice 30 days after the original payment. At this point we’ll be well on our way with your new website and you’ll be able to see the progress.",
+		answer: "No. In the past I have found that projects can take a lot longer than expected to complete. I might be waiting for information from you and this can delay the process. Sometimes these delays can take months. This is why I always invoice 30 days after the original payment. At this point I’ll be well on our way with your new website and you’ll be able to see the progress.",
 	},
 	{
 		question: "Who hosts the website?",
-		answer: "If we build your website, we will generally manage the hosting for you so you don’t need to do anything. We use the same hosting company for our own website and for ALL our clients. Each website is managed individually to avoid any security issues. Every website we build has unlimited bandwidth, 20GB of disk space, 2GB Ram and 99.9% uptime. We’ve used the same company for 5 years and we don’t plan on changing this anytime soon.",
+		answer: "If I build your website, I will generally manage the hosting for you so you don’t need to do anything. I use the same hosting company for my own website and for ALL my clients.",
 	},
 	{
 		question: "Can I update the website myself once it’s been built?",
-		answer: "Yes. We like to offer the ability for our clients to update the website themselves. We we’ll give you all the training and tools to be able to make website amendments. We use a easy to use platform called WordPress so you can add edit and delete content without paying us to do it for you.",
+		answer: "Yes. I like to offer the ability for my clients to update the website themselves. I’ll give you all the training and tools to be able to make website amendments.",
 	},
 	{
 		question:
 			"What if I don’t want to manage the website at all. Can you do it all for me?",
-		answer: "Yes, we can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.",
+		answer: "Yes, I can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.",
 	},
 ];
 
