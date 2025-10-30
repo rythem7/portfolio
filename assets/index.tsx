@@ -15,6 +15,12 @@ export const heroIcons: React.ReactNode[] = [
 	<RiGithubLine key="github-icon" />,
 ];
 
+export const heroIconsArr = [
+{url : "#", icon : <RiInstagramLine key="instagram-icon" />},
+{url : "#", icon : <RiFacebookCircleLine key="facebook-icon" />},
+{url : "#", icon : <RiGithubLine key="github-icon" />},
+];
+
 // About Me
 import {
 	RiGithubFill,
