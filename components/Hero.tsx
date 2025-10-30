@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
-import { heroIcons } from "@/assets";
+import { heroIconsArr } from "@/assets";
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 
 function Hero() {
