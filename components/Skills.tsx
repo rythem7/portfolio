@@ -32,7 +32,7 @@ const Skills = () => {
 						whileInView="visible"
 						whileHover={{ scale: 1.1 }}
 						viewport={{ once: true, margin: "50px" }}
-						className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 lg:px-5 py-2 px-2 will-change-auto transform-gpu"
+						className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 dark:bg-zinc-800 lg:px-5 py-2 px-2 will-change-auto transform-gpu"
 					>
 						<Image
 							src={item.icon}
@@ -41,7 +41,9 @@ const Skills = () => {
 							height={100}
 							className="h-auto w-10"
 						/>
-						<p className="text-sm text-gray-600">{item.name}</p>
+						<p className="text-sm light:text-gray-600 ">
+							{item.name}
+						</p>
 					</motion.div>
 				))}
 			</div>

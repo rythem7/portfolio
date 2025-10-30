@@ -9,7 +9,7 @@ import Projects from "@/components/Projects";
 import PricingPlans from "@/components/PricingPlans";
 import Questions from "@/components/Questions";
 import Contact from "@/components/Contact";
-import SmoothScrollProvider from "@/lib/LenisScrollProvider";
+import SmoothScrollProvider from "@/lib/SmoothScrollProvider";
 
 export default function Home() {
 	return (
