@@ -75,6 +75,9 @@ export default function LenisScrollProvider({
 			options={{
 				duration: 1.2,
 				lerp: 0.1,
+				smoothWheel: true,
+				// smoothTouch: false,
+				wheelMultiplier: 1,
 			}}
 		>
 			{children}

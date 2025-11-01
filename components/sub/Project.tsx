@@ -29,7 +29,7 @@ const Project = ({ data, index }: ProjectProps) => {
 				alt="Project Image"
 				width={400}
 				height={400}
-				className="w-100 h-auto rounded-lg opacity-70"
+				className="w-100 h-auto rounded-lg opacity-90"
 			/>
 			<motion.div
 				initial={{ opacity: 0 }}

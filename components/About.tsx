@@ -36,7 +36,7 @@ export default function About() {
 					</Link>
 				</div>
 			</div>
-			<div className=" w-full grid md:grid-cols-4 grid-cols-2 place-content-center  gap-7">
+			<div className=" w-full grid md:grid-cols-3 grid-cols-2 place-content-center  gap-7">
 				{aboutData.map((item, i) => (
 					<Achievements
 						key={i}

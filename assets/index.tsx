@@ -38,24 +38,24 @@ import {
 export const aboutData = [
 	{
 		title: "Github Repos",
-		amount: 348,
+		amount: 25,
 		icon: <RiGithubFill />,
 	},
 	{
-		title: "Successful Projects",
-		amount: 227,
+		title: "Projects Built",
+		amount: 87,
 		icon: <RiProjector2Line />,
 	},
 	{
-		title: "Satisfied clients",
-		amount: 176,
+		title: "Hours of Coding",
+		amount: 3020,
 		icon: <RiGroupLine />,
 	},
-	{
-		title: "Awards and Recognition",
-		amount: 107,
-		icon: <RiAwardFill />,
-	},
+	// {
+	// 	title: "Awards and Recognition",
+	// 	amount: 107,
+	// 	icon: <RiAwardFill />,
+	// },
 ];
 
 import { RiDownloadLine, RiArrowLeftSFill } from "@remixicon/react";
@@ -148,6 +148,10 @@ export const skillsData = [
 		icon: "/skills/tailwind.png",
 	},
 	{
+		name: "Figma",
+		icon: "/skills/figma.png",
+	},
+	{
 		name: "VS Code",
 		icon: "/skills/vscode.png",
 	},
@@ -197,33 +201,6 @@ export const skillsData = [
 		name: "Github",
 		icon: "/skills/github.png",
 	},
-	// {
-	// 	name: "Figma",
-	// 	icon: "/skills/figma.png",
-	// },
-	// {
-	// 	name: "Photoshop",
-	// 	icon: "/skills/photoshop.png",
-	// },
-	// {
-	// 	name: "Blender",
-	// 	icon: "/skills/blender.png",
-	// },
-
-	// {
-	// 	name: "AI",
-	// 	icon: "/skills/ai.png",
-	// },
-
-	// {
-	// 	name: "ThreeJS",
-	// 	icon: "/skills/threejs.png",
-	// },
-
-	// {
-	// 	name: "MongoDB",
-	// 	icon: "/skills/mongodb.png",
-	// },
 ];
 
 // Reviews
@@ -277,79 +254,58 @@ export const reviewsData = [
 // Projects
 export const projectsData = [
 	{
-		name: "SparkleGrove.com",
-		desc: "A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.",
-		url: "/projects/image-1.jpg",
-		tech: ["Figma", "Photoshop", "HTML"],
+		name: "ui-enhanced-store.vercel.app",
+		desc: "A Full stack E-commerce website built with NextJS. Features Next Auth, Prisma Neon, Paypal integration, Admin Dashboard and TailwindCSS for styling.",
+		url: "/projects/ecom-1.jpg",
+		tech: [
+			"NextJS",
+			"ReactJS",
+			"Prisma",
+			"PostgreSQL",
+			"TailwindCSS",
+			"TypeScript",
+			"ShadcnUI",
+		],
 	},
 	{
-		name: "TechTrekker.net",
-		desc: "A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.",
-		url: "/projects/image-2.jpg",
-		tech: ["Figma", "Photoshop"],
+		name: "Admin Dashboard",
+		desc: "An admin dashboard template built with NextJS and TailwindCSS. Features responsive design, data visualization, and user management functionalities.",
+		url: "/projects/ecom-3.jpg",
+		tech: [
+			"NextJS",
+			"Prisma",
+			"TypeScript",
+			"TailwindCSS",
+			"Figma",
+			"ShadcnUI",
+		],
 	},
 	{
-		name: "CozyNestHomes.org",
-		desc: "A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.",
-		url: "/projects/image-3.jpg",
-		tech: ["HTML", "CSS", "JavaScript"],
+		name: "SVG Masking Animation",
+		desc: "A page showcasing a svg masking animation with lenis smooth scroll.",
+		url: "/projects/elara-1.jpg",
+		tech: ["NextJS", "FramerMotion", "GSAP"],
 	},
 	{
-		name: "WanderLuxeTravels.co",
-		desc: "A travel website that provides luxury travel guides, destination reviews, and tips for planning unforgettable vacations.",
-		url: "/projects/image-4.jpg",
-		tech: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
-	},
-	{
-		name: "ByteBoosters.io",
-		desc: "A tech startup specializing in software development, offering innovative solutions and services for businesses looking to enhance their digital presence.",
-		url: "/projects/image-5.jpg",
-		tech: ["Figma", "ReactJS", "TailwindCSS", "CSS"],
-	},
-	{
-		name: "GreenLeafGardens.biz",
-		desc: "An online store and community hub for gardening enthusiasts, featuring a wide range of plants, gardening tools, and expert advice.",
-		url: "/projects/image-6.jpg",
-		tech: ["ReactJS", "TailwindCSS", , "CSS", "FramerMotion"],
-	},
-	{
-		name: "PixelPerfectDesigns.info",
-		desc: "A graphic design portfolio showcasing the work of a freelance designer, including branding, web design, and illustration projects.",
-		url: "/projects/image-7.jpg",
-		tech: ["NextJS", "FramerMotion"],
-	},
-	{
-		name: "HarmonyHealthHub.com",
-		desc: " A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.",
-		url: "/projects/image-8.jpg",
-		tech: ["NextJS", "ReactJS", "FramerMotion"],
-	},
-	{
-		name: "StellarSkiesAstronomy.org",
-		desc: "An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.",
-		url: "/projects/image-9.jpg",
-		tech: ["ReactJS", "JavaScript", "ThreeJS"],
-	},
-	{
-		name: "UrbanEatsDelights.com",
-		desc: "An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.",
-		url: "/projects/image-10.jpg",
-		tech: ["NextJS", "ThreeJS"],
+		name: "Interactive background",
+		desc: "An interactive background where dots react to mouse movement.",
+		url: "/projects/bg-1.jpg",
+		tech: ["GSAP"],
 	},
 ];
 
 export const projectsButton = [
 	"All",
-	"Figma",
-	"Photoshop",
-	"HTML",
-	"CSS",
-	"JavaScript",
+	"NextJS",
 	"ReactJS",
 	"TailwindCSS",
-	"NextJS",
+	"Figma",
 	"FramerMotion",
-	"ThreeJS",
+	"GSAP",
+	"TypeScript",
+	"Prisma",
+	"PostgreSQL",
+	"ShadcnUI",
 ];
 
 // Pricing Plans
