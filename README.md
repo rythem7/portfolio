@@ -60,8 +60,9 @@ app/                # Next.js app directory (pages, layout)
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is protected by a Limited Use License.
+You may view and learn from it, but may not reuse or redistribute it without permission.(LICENSE).
 
 ---
 
-> Built with ❤️ using Next.js and TypeScript.
+> Built using Next.js and TypeScript.
