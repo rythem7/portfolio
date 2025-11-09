@@ -4,11 +4,11 @@ import Link from "next/link";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { motion } from "framer-motion";
 import { useState, useRef } from "react";
+import { handleScrollTo } from "@/lib/utils";
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, useGSAP);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const Navbar = () => {
 	const [activeId, setActiveId] = useState("home");
@@ -53,16 +53,6 @@ const Navbar = () => {
 		{ scope: navbarRef, dependencies: [] }
 	);
 
-	const handleScrollTo = (e: React.MouseEvent, id: string) => {
-		e.preventDefault();
-		gsap.to(window, {
-			duration: 1.3,
-			scrollTo: { y: `#${id}`, offsetY: -50 },
-			ease: "power4.out",
-		});
-
-		ScrollTrigger.refresh();
-	};
 	return (
 		<div
 			ref={navbarRef}

@@ -2,6 +2,7 @@
 import Heading from "./sub/Heading";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ContactForm } from "./sub/ContactForm";
 
 const Contact = () => {
 	return (
@@ -24,41 +25,7 @@ const Contact = () => {
 						unoptimized
 					/>
 				</motion.div>
-				<motion.form
-					initial={{ opacity: 0, x: 150 }}
-					whileInView={{ opacity: 1, x: 0 }}
-					transition={{ duration: 0.4 }}
-					viewport={{ once: true }}
-					className="w-full sm:w-[400px] lg:w-[600px] flex flex-col gap-3"
-				>
-					<div className="w-full flex flex-col lg:flex-row gap-x-3 lg:gap-y-0 gap-y-3">
-						<input
-							type="text"
-							className="w-full border border-yellow-500 rounded-md light:bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"
-							placeholder="Your Name"
-						/>
-						<input
-							type="email"
-							className="w-full border border-yellow-500 rounded-md light:bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"
-							placeholder="Your Email"
-						/>
-					</div>
-					<input
-						type="text"
-						className="w-full border border-yellow-500 rounded-md light:bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"
-						placeholder="Subject"
-					/>
-					<textarea
-						className="max-h-[250px] min-h-[150px] border border-yellow-500 rounded-md light:bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none"
-						placeholder="Write Me..."
-					></textarea>
-					<input
-						type="submit"
-						className="w-full border border-yellow-500 rounded-md bg-yellow-600 px-4 py-2 text-sm font-light tracking-wider text-white outline-none hover:bg-yellow-500 transition-colors disabled:cursor-not-allowed disabled:opacity-60 cursor-pointer"
-						value="Send Message"
-						disabled
-					/>
-				</motion.form>
+				<ContactForm />
 			</div>
 		</div>
 	);
