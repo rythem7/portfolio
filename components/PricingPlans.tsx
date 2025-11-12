@@ -23,7 +23,7 @@ const PricingPlans = () => {
 						className={`
   flex flex-col gap-y-6 p-6 border border-red-400 rounded-xl text-gray-600
   dark:bg-zinc-700 transition-colors
-  w-[300px] xl:w-[370px]
+  w-[300px] xl:w-[370px] select-none
   ${i === 1 ? "bg-white sm:w-[320px] xl:w-[370px]" : "bg-zinc-50"}
 `}
 					>

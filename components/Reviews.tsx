@@ -60,7 +60,7 @@ const Reviews = () => {
 				relative flex items-center justify-center overflow-clip 
 				w-[300px] md:w-[600px] lg:w-[800px]
 				h-[600px] sm:h-[400px] md:h-[450px] lg:h-[500px]
-				rounded-xl
+				rounded-xl select-none
 			"
 				>
 					{reviewsData.map((review, i) => (

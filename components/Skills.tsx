@@ -32,14 +32,14 @@ const Skills = () => {
 						whileInView="visible"
 						whileHover={{ scale: 1.1 }}
 						viewport={{ once: true, margin: "50px" }}
-						className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 dark:bg-zinc-800 lg:px-5 py-2 px-2 will-change-auto transform-gpu"
+						className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 dark:bg-zinc-800 lg:px-5 py-2 px-2 will-change-auto select-none transform-gpu"
 					>
 						<Image
 							src={item.icon}
 							alt="Skills Image"
 							width={100}
 							height={100}
-							className="h-auto w-10"
+							className="h-auto w-10 select-none"
 						/>
 						<p className="text-sm light:text-gray-600 ">
 							{item.name}

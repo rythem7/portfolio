@@ -2,17 +2,18 @@
 import Heading from "./sub/Heading";
 import Question from "./sub/Question";
 import { questions } from "@/assets";
+import { motion } from "framer-motion";
 
 const Questions = () => {
 	return (
 		<div className="py-20 h-full flex flex-col gap-y-8">
-			<Heading text={"Questions & Answers"} />
+			<Heading text={"Frequently Asked Questions"} />
 			<div>
-				<ul className="flex flex-col gap-y-3">
+				<motion.ul layout className="flex flex-col gap-y-3">
 					{questions.map((question, i) => (
 						<Question key={i} data={question} index={i} />
 					))}
-				</ul>
+				</motion.ul>
 			</div>
 		</div>
 	);

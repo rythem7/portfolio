@@ -29,6 +29,7 @@ const Question = ({
 			whileInView="visible"
 			viewport={{ margin: "50px", once: true }}
 			variants={variants}
+			layout
 			className="border border-yellow-500 p-1 rounded-lg"
 		>
 			<h1
@@ -40,7 +41,7 @@ const Question = ({
 				<motion.span animate={{ rotate: show ? 180 : 0 }}>
 					{questionArrow}
 				</motion.span>
-				<span>{data.question}</span>
+				<span className="select-none">{data.question}</span>
 			</h1>
 			<motion.p
 				initial={{ scaleY: 0, height: 0, opacity: 0 }}
@@ -56,7 +57,8 @@ const Question = ({
 					// stiffness: show ? 400 : 50,
 					opacity: { delay: show ? 0.2 : 0 },
 				}}
-				className="box-border origin-top pl-8 text-lg font-extralight tracking-wide text-gray-900 first-letter:pl-3 dark:text-gray-200"
+				layout
+				className="box-border origin-top pl-8 text-lg font-extralight tracking-wide text-gray-900 first-letter:pl-3 dark:text-gray-200 select-none"
 			>
 				{data.answer}
 			</motion.p>

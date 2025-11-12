@@ -23,7 +23,7 @@ export default function About() {
 					<span className="absolute left-1 hidden lg:inline-block">
 						{arrowLeftIcon}
 					</span>
-					<p className="text-lg font-light light:text-gray-700 text-[14px] lg:text-[16px]">
+					<p className="text-lg font-light light:text-gray-700 text-[14px] lg:text-[16px] select-none">
 						{aboutText}
 					</p>
 					<Link
@@ -31,12 +31,12 @@ export default function About() {
 						download=""
 						className="flex items-center w-max gap-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
 					>
-						<span>Download CV</span>
+						<span className="select-none">Download CV</span>
 						<span className="text-xl">{downloadIcon}</span>
 					</Link>
 				</div>
 			</div>
-			<div className=" w-full grid md:grid-cols-3 grid-cols-2 place-content-center  gap-7">
+			<div className=" w-full grid md:grid-cols-3 grid-cols-2 place-content-center select-none  gap-7">
 				{aboutData.map((item, i) => (
 					<Achievements
 						key={i}

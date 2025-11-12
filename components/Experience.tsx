@@ -68,7 +68,7 @@ export default function Timeline() {
 	);
 
 	return (
-		<section className=" flex flex-col items-center w-full py-5 bg-zinc-100 min-h-screen dark:bg-zinc-900">
+		<section className=" flex flex-col items-center w-full py-5 bg-zinc-100 min-h-screen dark:bg-zinc-900 select-none">
 			<Heading text={"My Journey..."} className="mb-4 mt-15" />
 			<div
 				ref={containerRef}

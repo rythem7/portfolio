@@ -52,7 +52,7 @@ const Projects = () => {
 						}}
 						className="border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider cursor-pointer text-gray-400"
 					>
-						{text}
+						<span className="select-none">{text}</span>
 					</motion.div>
 				))}
 			</div>
